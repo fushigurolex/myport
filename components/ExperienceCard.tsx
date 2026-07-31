@@ -5,7 +5,6 @@ export default function ExperienceCard() {
         mt-24
       "
     >
-
       <h3
         className="
           text-3xl
@@ -15,9 +14,6 @@ export default function ExperienceCard() {
       >
         Developer Journey
       </h3>
-
-
-
       <div
         className="
           grid
@@ -25,9 +21,6 @@ export default function ExperienceCard() {
           gap-6
         "
       >
-
-        {/* Years */}
-
         <div
           className="
             bg-[#111]
@@ -37,7 +30,6 @@ export default function ExperienceCard() {
             p-6
           "
         >
-
           <h4
             className="
               text-4xl
@@ -47,18 +39,11 @@ export default function ExperienceCard() {
           >
             3+
           </h4>
-
-
           <p className="text-gray-400 mt-2">
             Years Coding Experience
           </p>
 
         </div>
-
-
-
-        {/* Programming */}
-
         <div
           className="
             bg-[#111]
@@ -68,24 +53,15 @@ export default function ExperienceCard() {
             p-6
           "
         >
-
           <h4 className="text-xl font-bold">
             Software Development
           </h4>
-
-
           <p className="text-gray-400 mt-3">
             Started as a programmer in a private
             company, building applications and
             improving development skills.
           </p>
-
         </div>
-
-
-
-        {/* Data Entry */}
-
         <div
           className="
             bg-[#111]
@@ -95,23 +71,15 @@ export default function ExperienceCard() {
             p-6
           "
         >
-
           <h4 className="text-xl font-bold">
             Data Entry Experience
           </h4>
-
-
           <p className="text-gray-400 mt-3">
             Developed strong attention to detail,
             accuracy, and data management skills.
           </p>
-
         </div>
-
-
       </div>
-
-
     </section>
   );
 }

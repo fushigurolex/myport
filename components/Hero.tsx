@@ -113,8 +113,6 @@ export default function Hero() {
         >
           <CodeCard />
         </div>
-
-
       </div>
     </section>
   );

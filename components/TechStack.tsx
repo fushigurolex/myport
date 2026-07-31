@@ -8,7 +8,6 @@ const technologies = [
   "Vercel",
 ];
 
-
 export default function TechStack() {
   return (
     <section
@@ -16,7 +15,6 @@ export default function TechStack() {
         mt-24
       "
     >
-
       <h3
         className="
           text-3xl
@@ -26,9 +24,6 @@ export default function TechStack() {
       >
         Tech Stack
       </h3>
-
-
-
       <div
         className="
           grid
@@ -37,9 +32,7 @@ export default function TechStack() {
           gap-4
         "
       >
-
         {technologies.map((tech) => (
-
           <div
             key={tech}
             className="
@@ -55,17 +48,10 @@ export default function TechStack() {
               transition
             "
           >
-
             {tech}
-
           </div>
-
         ))}
-
-
       </div>
-
-
     </section>
   );
 }

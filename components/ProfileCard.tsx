@@ -8,7 +8,6 @@ export default function ProfileCard() {
         justify-center
       "
     >
-
       <div
         className="
           relative
@@ -23,9 +22,6 @@ export default function ProfileCard() {
           group
         "
       >
-
-        {/* Image */}
-
         <Image
           src="/profile.jpg"
           alt="Shin Amir"
@@ -57,7 +53,6 @@ export default function ProfileCard() {
             left-6
           "
         >
-
           <p className="text-white text-xl font-bold">
             Shin Amir
           </p>
@@ -65,13 +60,8 @@ export default function ProfileCard() {
           <p className="text-gray-300">
             Full Stack Developer
           </p>
-
         </div>
-
-
       </div>
-
-
     </div>
   );
 }

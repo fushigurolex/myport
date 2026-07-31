@@ -13,18 +13,13 @@ export default function About() {
         py-24
       "
     >
-
       <div
         className="
           max-w-6xl
           mx-auto
         "
       >
-
-        {/* Section Title */}
-
         <div className="mb-16">
-
           <p
             className="
               text-blue-500
@@ -35,8 +30,6 @@ export default function About() {
           >
             01. About
           </p>
-
-
           <h2
             className="
               text-4xl
@@ -47,13 +40,7 @@ export default function About() {
           >
             About Me
           </h2>
-
         </div>
-
-
-
-        {/* Main About Area */}
-
         <div
           className="
             grid
@@ -62,19 +49,8 @@ export default function About() {
             items-center
           "
         >
-
-
-          {/* Photo */}
-
           <ProfileCard />
-
-
-
-          {/* Description */}
-
           <div>
-
-
             <h3
               className="
                 text-3xl
@@ -82,10 +58,8 @@ export default function About() {
                 mb-5
               "
             >
-              Hi, I'm Shin Amir
+              Hi, I'm Jerwin Bejerano
             </h3>
-
-
             <h4
               className="
                 text-xl
@@ -95,8 +69,6 @@ export default function About() {
             >
               Full Stack Developer with Data Entry Experience
             </h4>
-
-
             <p
               className="
                 text-gray-400
@@ -107,12 +79,8 @@ export default function About() {
               I'm a detail-oriented developer who enjoys
               building websites that are functional,
               accessible, and useful for the community.
-
-
               <br />
               <br />
-
-
               My journey started as a programmer in a
               private company, where I developed software
               solutions and improved my technical skills.
@@ -120,29 +88,11 @@ export default function About() {
               strengthening my attention to detail and
               understanding of information management.
             </p>
-
-
           </div>
-
-
         </div>
-
-
-
-        {/* Experience */}
-
         <ExperienceCard />
-
-
-
-        {/* Tech Stack */}
-
         <TechStack />
-
-
       </div>
-
-
     </section>
   );
 }
