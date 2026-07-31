@@ -54,7 +54,7 @@ export default function ProfileCard() {
           "
         >
           <p className="text-white text-xl font-bold">
-            Shin Amir
+            Jerwin Bejerano
           </p>
 
           <p className="text-gray-300">

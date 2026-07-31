@@ -40,7 +40,7 @@ export default function Hero() {
               leading-tight
             "
           >
-            Shin Amir
+            Jerwin Bejerano
           </h1>
           <h2
             className="
