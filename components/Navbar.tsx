@@ -3,10 +3,7 @@
 import { useState } from "react";
 
 export default function Navbar() {
-
   const [isOpen, setIsOpen] = useState(false);
-
-
   const links = [
     {
       name: "Home",
@@ -25,8 +22,6 @@ export default function Navbar() {
       href: "#contact",
     },
   ];
-
-
   return (
     <nav
       className="
@@ -40,7 +35,6 @@ export default function Navbar() {
         border-gray-800
       "
     >
-
       <div
         className="
           max-w-6xl
@@ -52,10 +46,6 @@ export default function Navbar() {
           items-center
         "
       >
-
-
-        {/* Logo */}
-
         <a
           href="#home"
           className="
@@ -63,13 +53,8 @@ export default function Navbar() {
             font-bold
           "
         >
-          Shin.
+          Jerwin.
         </a>
-
-
-
-        {/* Desktop Menu */}
-
         <div
           className="
             hidden
@@ -77,9 +62,7 @@ export default function Navbar() {
             gap-8
           "
         >
-
           {links.map((link) => (
-
             <a
               key={link.name}
               href={link.href}
@@ -91,15 +74,8 @@ export default function Navbar() {
             >
               {link.name}
             </a>
-
           ))}
-
         </div>
-
-
-
-        {/* Mobile Button */}
-
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="
@@ -107,20 +83,10 @@ export default function Navbar() {
             text-2xl
           "
         >
-
           {isOpen ? "✕" : "☰"}
-
         </button>
-
-
       </div>
-
-
-
-      {/* Mobile Menu */}
-
       {isOpen && (
-
         <div
           className="
             md:hidden
@@ -132,9 +98,7 @@ export default function Navbar() {
             bg-black
           "
         >
-
           {links.map((link) => (
-
             <a
               key={link.name}
               href={link.href}
@@ -146,15 +110,9 @@ export default function Navbar() {
             >
               {link.name}
             </a>
-
           ))}
-
-
         </div>
-
       )}
-
-
     </nav>
   );
 }
