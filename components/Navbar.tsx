@@ -14,12 +14,12 @@ export default function Navbar() {
       href: "#about",
     },
     {
-      name: "Projects",
-      href: "#projects",
-    },
-    {
       name: "Contact",
       href: "#contact",
+    },
+        {
+      name: "Projects",
+      href: "#projects",
     },
   ];
   return (
